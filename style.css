@@ -104,3 +104,14 @@ li::marker{
   margin-bottom: 15px;
 }
 
+
+
+
+footer{
+  margin-top: 20px;
+  text-align: center;
+}
+footer a{
+  text-decoration: none;
+}
+
