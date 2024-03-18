@@ -10,12 +10,12 @@ body{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: hsl(14, 45%, 36%);
+  background-color:#f3e5d8;
   margin-top: 20px;
 }
 
 .container {
-  background-color: white;
+  background-color: #ffffff;
   padding: 20px;
   height: 50%;
   width: 50%;
@@ -38,31 +38,37 @@ img{
 
 .hero h1{
   margin-bottom: 10px;
+  color: #272624;
   font-family: "Young Serif", serif;
 }
 .hero p{
   font-size: 16px;
   line-height: 25px;
   margin-bottom: 15px;
+  color: #3e3e3e;
   font-family: "Outfit", sans-serif;
 }
 
 .preparation-time{
-  background-color: hsl(30, 10%, 34%);
+  background-color:#fff7fc;
+  border-radius: 10px;
   padding: 30px;
   margin-bottom: 20px;
   font-family: "Outfit", sans-serif;
 }
 .preparation-time h1{
+  color: #6d334b;
   margin-bottom: 10px;
 }
 .preparation-time ul{
   list-style-position: inside;
   padding:0 0 0 10px;
   line-height: 25px;
+  color: #3e3e3e;
 }
 .preparation-time ul span{
   font-weight: 600;
+  color: #272624;
 }
 
 /* .ingredients{
@@ -71,6 +77,7 @@ img{
 .ingredients h1{
   font-family: "Young Serif", serif;
   margin-bottom: 10px;
+  color: #7b4833;
 }
 .ingredients ul{
   list-style-position: inside;
@@ -81,7 +88,7 @@ img{
 }
 /* how to change the color of the bullet */
 li::marker{
-  color: red;
+  color: #7b4833;
 }
 
 /* .instruction{
@@ -91,6 +98,7 @@ li::marker{
   font-family: "Young Serif", serif;
   margin-bottom: 10px;
   margin-top: 10px;
+  color: #7b4833;
 }
 .instruction ol{
   padding:0 0 20px 20px;
@@ -100,6 +108,7 @@ li::marker{
 }
 .instruction li {
   padding-left: 10px;
+  font-weight: 600;
 }
 .instruction ol span{
   font-weight: 600;
@@ -112,6 +121,7 @@ li::marker{
 .nutrition h1{
   font-family: "Young Serif", serif;
   margin-bottom: 10px;
+  color: #7b4833;
 }
 .nutrition p{
   margin-bottom: 20px;
@@ -127,6 +137,10 @@ li::marker{
   margin-top: 20px;
   padding-left: 40px;
   grid-template-columns: 1fr 1fr;
+}
+.color{
+  color: #7b4833;
+  font-weight: 600;
 }
 
 footer{
