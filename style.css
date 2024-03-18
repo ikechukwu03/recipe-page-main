@@ -12,13 +12,6 @@ body{
   flex-direction: column;
   background-color: hsl(14, 45%, 36%);
   margin-top: 20px;
-
-    font-family: "Young Serif", serif;
-    font-weight: 400;
-  
-      font-family: "Outfit", sans-serif;
-      font-optical-sizing: auto;
-  
 }
 
 .container {
@@ -46,17 +39,20 @@ img{
 
 .hero h1{
   margin-bottom: 10px;
+  font-family: "Young Serif", serif;
 }
 .hero p{
-  font-size: 18px;
+  font-size: 16px;
   line-height: 25px;
   margin-bottom: 15px;
+  font-family: "Outfit", sans-serif;
 }
 
 .preparation-time{
   background-color: hsl(30, 10%, 34%);
   padding: 30px;
   margin-bottom: 20px;
+  font-family: "Young Serif", serif;
 }
 .preparation-time h1{
   margin-bottom: 10px;
@@ -74,10 +70,12 @@ img{
 
 } */
 .ingredients h1{
+  font-family: "Young Serif", serif;
   margin-bottom: 10px;
 }
 .ingredients ul{
   list-style-position: inside;
+  font-family: "Outfit", sans-serif;
   padding:0 0 20px 10px;
   margin-bottom: 10px;
   line-height: 30px;
@@ -91,6 +89,7 @@ li::marker{
 
 } */
 .instruction h1{
+  font-family: "Young Serif", serif;
   margin-bottom: 10px;
   margin-top: 10px;
 }
@@ -98,6 +97,7 @@ li::marker{
   padding:0 0 20px 20px;
   margin-bottom: 10px;
   line-height: 23px;
+  font-family: "Outfit", sans-serif;
 }
 .instruction li {
   padding-left: 10px;
@@ -108,19 +108,23 @@ li::marker{
 
 .nutrition{
   margin-top: 20px;
+  font-family: "Outfit", sans-serif;
 } 
 .nutrition h1{
+  font-family: "Young Serif", serif;
   margin-bottom: 15px;
 }
 
 .table{
   margin: 20px;
+  font-family: "Outfit", sans-serif;
 }
 .table span {
   margin-left: 250px;
 }
 
 .table2{
+  font-family: "Outfit", sans-serif;
   margin: 20px;
 }
 .table2 span {
@@ -128,6 +132,7 @@ li::marker{
 }
 
 .table3{
+  font-family: "Outfit", sans-serif;
   margin: 20px;
 }
 .table3 span {
@@ -135,18 +140,17 @@ li::marker{
 }
 
 .table4{
+  font-family: "Outfit", sans-serif;
   margin: 20px;
 }
 .table4 span {
   margin-left: 285px;
 }
 
-
-
-
 footer{
   margin-top: 20px;
   text-align: center;
+  font-family: "Outfit", sans-serif;
 }
 footer a{
   text-decoration: none;
