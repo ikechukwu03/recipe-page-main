@@ -104,6 +104,34 @@ li::marker{
   margin-bottom: 15px;
 }
 
+.table{
+  margin: 20px;
+}
+.table span {
+  margin-left: 250px;
+}
+
+.table2{
+  margin: 20px;
+}
+.table2 span {
+  margin-left: 269px;
+}
+
+.table3{
+  margin: 20px;
+}
+.table3 span {
+  margin-left: 260px;
+}
+
+.table4{
+  margin: 20px;
+}
+.table4 span {
+  margin-left: 285px;
+}
+
 
 
 
