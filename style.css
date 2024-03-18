@@ -111,39 +111,22 @@ li::marker{
 } 
 .nutrition h1{
   font-family: "Young Serif", serif;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
+}
+.nutrition p{
+  margin-bottom: 20px;
 }
 
 .table{
-  margin: 20px;
   font-family: "Outfit", sans-serif;
+  display: grid;
 }
-.table span {
-  margin-left: 250px;
-}
-
-.table2{
-  font-family: "Outfit", sans-serif;
-  margin: 20px;
-}
-.table2 span {
-  margin-left: 269px;
-}
-
-.table3{
-  font-family: "Outfit", sans-serif;
-  margin: 20px;
-}
-.table3 span {
-  margin-left: 260px;
-}
-
-.table4{
-  font-family: "Outfit", sans-serif;
-  margin: 20px;
-}
-.table4 span {
-  margin-left: 285px;
+.content{
+  display:grid;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-left: 40px;
+  grid-template-columns: 1fr 1fr;
 }
 
 footer{
